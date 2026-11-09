@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>Harakat</title>
+<style>body{text-align:center;background:#111;color:#fff;font-family:sans-serif}button{padding:15px;font-size:22px;margin:5px;border-radius:12px}</style>
+</head><body>
+<h1>🎮 Harakat</h1>
+<h2>النقاط: <span id="s">0</span></h2>
+<h1 id="b" style="font-size:80px">😀</h1>
+<button onclick="go('⬅️')">⬅️</button>
+<button onclick="go('⬆️')">⬆️</button>
+<button onclick="go('⬇️')">⬇️</button>
+<button onclick="go('➡️')">➡️</button>
+<script>let n=0;function go(e){n++;document.getElementById('s').innerText=n;document.getElementById('b').innerText=e;}</script>
+</body></html>
